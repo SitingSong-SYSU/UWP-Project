@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Animal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Animal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="words" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="658" Width="334" Margin="615,193,0,0" RenderTransformOrigin="0.499,0.488"/>
+        <Button x:Name="button" Content="Speak" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Button_Click" Margin="380,285,0,0" Height="72" Width="121"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="615,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="165" Height="56"/>
+        <Button x:Name="button1" Content="OK" HorizontalAlignment="Left" Margin="784.739,138.587,0,0" VerticalAlignment="Top" Click="Button1_Click" Width="172.734" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="56.301"/>
+    </Grid>
+</Page>
